@@ -11,6 +11,7 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rcutils REQUIRED)
 
 # Targets and link
 include(cmake/WasmBuildOptions.cmake)

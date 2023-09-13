@@ -15,7 +15,7 @@ function(wasm_link_options target)
         PUBLIC "SHELL: -s ALLOW_MEMORY_GROWTH=1"
         PUBLIC "SHELL: -s DEMANGLE_SUPPORT=1"
         PUBLIC "SHELL: -s ASSERTIONS=1"
-        PUBLIC "SHELL: -s EXIT_RUNTIME=1" 
+        PUBLIC "SHELL: -s EXIT_RUNTIME=1"
         PUBLIC "SHELL: -s WASM=1"
         PUBLIC "SHELL: -s USE_PTHREADS=0"
         PUBLIC "SHELL: -s TOTAL_STACK=16mb"
